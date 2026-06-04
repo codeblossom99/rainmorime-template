@@ -1,0 +1,148 @@
+.
+├──  -i
+├── LICENSE
+├── README.en.md
+├── README.md
+├── assets
+│   └── RM.jpg
+├── components
+│   ├── cards
+│   │   ├── ProjectCard.tsx
+│   │   └── SimpleImageCard.tsx
+│   ├── detail
+│   │   ├── ExperienceDetailView.tsx
+│   │   ├── LifeDetailView.tsx
+│   │   └── WorkDetailView.tsx
+│   ├── effects
+│   │   ├── Noise.module.scss
+│   │   ├── Noise.tsx
+│   │   ├── RainMorimeEffect.tsx
+│   │   ├── Tesseract.tsx
+│   │   └── TesseractExperience.tsx
+│   ├── interactive
+│   │   ├── ActivationLever.module.scss
+│   │   ├── ActivationLever.tsx
+│   │   ├── CustomCursor.tsx
+│   │   ├── Lightbox.tsx
+│   │   ├── MusicPlayer.module.scss
+│   │   └── MusicPlayer.tsx
+│   ├── layout
+│   │   ├── GlobalHud.tsx
+│   │   ├── LeftPanel.tsx
+│   │   ├── MainLayout.tsx
+│   │   ├── NavigationColumns.tsx
+│   │   └── SectionPageLayout.tsx
+│   ├── mdx
+│   │   └── MDXComponents.tsx
+│   ├── sections
+│   │   ├── AboutSection.tsx
+│   │   ├── BlogSection.tsx
+│   │   ├── ContactSection.tsx
+│   │   ├── ExperienceSection.tsx
+│   │   ├── LifeSection.tsx
+│   │   └── WorksSection.tsx
+│   └── shared
+│       ├── HomeLoadingScreen.tsx
+│       ├── LazyImage.tsx
+│       ├── LoadingScreen
+│       │   ├── IndustrialHud.tsx
+│       │   ├── LogoTitle.tsx
+│       │   ├── SplitTransition.tsx
+│       │   └── TerminalConsole.tsx
+│       ├── ShinyText.module.scss
+│       ├── ShinyText.tsx
+│       ├── SkillTree.module.scss
+│       ├── SkillTree.tsx
+│       ├── Timeline.module.scss
+│       ├── Timeline.tsx
+│       ├── VerticalShinyText.module.scss
+│       └── VerticalShinyText.tsx
+├── content
+│   └── blog
+│       ├── getting-started.mdx
+│       └── hello-world.mdx
+├── contexts
+│   ├── AppContext.tsx
+│   └── TransitionContext.tsx
+├── core_files.log
+├── data
+│   ├── experience.ts
+│   ├── friendLinks.ts
+│   ├── life.ts
+│   ├── projects.ts
+│   └── skills.ts
+├── docs
+│   └── preview.png
+├── hooks
+│   ├── useAnimationSequence.ts
+│   ├── useColumnHover.ts
+│   ├── useLoadingSystem.ts
+│   ├── useMediaQuery.ts
+│   ├── usePowerSystem.ts
+│   ├── useRealtimeStats.ts
+│   └── useTypingEffect.ts
+├── jsconfig.json
+├── lib
+│   └── blog.ts
+├── next.config.js
+├── package-lock.json
+├── package.json
+├── pages
+│   ├── _app.tsx
+│   ├── _document.tsx
+│   ├── about.tsx
+│   ├── blog
+│   │   └── [slug].tsx
+│   ├── blog.tsx
+│   ├── contact.tsx
+│   ├── content.tsx
+│   ├── experience.tsx
+│   ├── friends.tsx
+│   ├── index.tsx
+│   ├── life
+│   │   └── [slug].tsx
+│   ├── life.tsx
+│   ├── rss.xml.tsx
+│   ├── sitemap.xml.tsx
+│   ├── web
+│   │   └── [id].tsx
+│   └── works.tsx
+├── public
+│   ├── avatar.svg
+│   ├── fonts
+│   │   ├── Dosis
+│   │   │   └── Dosis-Light.ttf
+│   │   ├── Willful
+│   │   │   ├── Willful.otf
+│   │   │   └── Willful.ttf
+│   │   └── ZELDA Free.otf
+│   ├── music
+│   │   └── README.md
+│   ├── robots.txt
+│   └── terrain.svg
+├── server.js
+├── styles
+│   ├── BlogDetailView.module.scss
+│   ├── BlogPostCard.module.scss
+│   ├── BlogView.module.scss
+│   ├── CustomCursor.module.scss
+│   ├── ExperienceDetailView.module.scss
+│   ├── Home.module.scss
+│   ├── HomeLoadingScreen.module.scss
+│   ├── LazyImage.module.scss
+│   ├── LifeDetailView.module.scss
+│   ├── Lightbox.module.scss
+│   ├── MDXContent.module.scss
+│   ├── Minecraft.module.scss
+│   ├── SimpleImageCard.module.scss
+│   ├── WorkDetailView.module.scss
+│   ├── _animations.scss
+│   ├── _columns.scss
+│   ├── _layout.scss
+│   ├── _sections.scss
+│   └── globals.scss
+├── tsconfig.json
+└── types
+    └── index.ts
+
+30 directories, 116 files
